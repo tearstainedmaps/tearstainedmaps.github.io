@@ -1,7 +1,19 @@
 <html>
 <head>
 <title> TSM</title>
-<link rel= "stylesheet" href=style/style.css>
+<!--setting character encoding-->
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Links for Desktop Nav -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><!--within css change colours, and button sizes to meet needs of 50% difference-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!-- Reference our CSS -->
+<link rel= "stylesheet" href="style/style.css">
+
+<!--external font--> 
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7COpen+Sans:400" rel="stylesheet"> 
+ 
 </head>
  <body>
 <!-- 1, Top menu bar-->
@@ -46,6 +58,39 @@
     }
     // End of Mobile Nav Script
     </script>
+
+    <!-- Desktop Navigation -->
+    <div id="desktopNav">
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Home</button>
+    </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        About us <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Values</a></li>
+       </ul>
+    </div>
+       <div class="btn-group">
+         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+         Services <span class="caret"></span></button>
+         <ul class="dropdown-menu" role="menu">
+           <li><a href="#">1</a></li>
+           <li><a href="#">2</a></li>
+       <li><a href="#">3</a></li>
+           <li><a href="#">4</a></li>
+       <li><a href="index.htm">5</a></li>
+         </ul>
+       <div class="btn-group">
+       <button type="button" class="btn btn-primary">Past Projects</button>
+     </div><!--may use url in box for these buttons-->
+     <div class="btn-group">
+       <button type="button" class="btn btn-primary">Contact us</button> 
+     </div>
+       </div>
+      </div>
+       <!-- End of Desktop Navigation -->
 <!--2, Header image and title-->
 <!-- 7, drop down menu-->
 <div class= "maincontent">

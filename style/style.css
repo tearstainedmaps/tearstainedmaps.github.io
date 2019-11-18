@@ -17,16 +17,16 @@
 /* Modified content position */
   .overlay-content {
     position: relative;
-    top: 20%;
+    top: 10%;
     width: 100%;
     text-align: center;
     margin-top: 20px;
   }
   /* Modified padding and font size and color */
   .overlay a {
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 18px;
     color: #57f6fc;
     display: block;
     transition: 0.3s;
@@ -38,8 +38,8 @@
   
   .overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: 10px;
+    right: 35px;
     font-size: 60px;
   }
 
@@ -49,26 +49,43 @@
       padding-right: 25px;
       position: Fixed;
       background-color: #fff;
+      display: block;
   }
 
   #hamburger{
       margin-right: 30px;
+  }
+  ul {
+      padding: 0px;
   }
   
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
     .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
     }
   }
   /* End of Mobile Nav CSS */
+  /* Media Query to switch nav bars */
+
+ 
+  @media only screen and (min-width: 641px){
+      #mobileNav {display: none}
+      #desktopNav {display: block}
+  }
+  @media only screen and (max-width: 640px){
+    #mobileNav {display: block}
+    #desktopNav {display: none}
+}
 
 /*Main Content Blocks CSS. Template from w3 Schools, Modified by Alison Orlandi */
 .maincontent{
 -webkit-appearance: none;
+}
+.roweven, .rowodd {
+	font-family: Lato, Helvetica, Arial, sans-serif;
+	color: #333333;
+	line-height: 1.4;
 }
 
 .columnleft {

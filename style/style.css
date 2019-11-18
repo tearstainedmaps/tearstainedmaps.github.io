@@ -38,8 +38,8 @@
   
   .overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: 10px;
+    right: 35px;
     font-size: 60px;
   }
 
@@ -55,14 +55,14 @@
   #hamburger{
       margin-right: 30px;
   }
+  ul {
+      padding: 0px;
+  }
   
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
     .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
     }
   }
   /* End of Mobile Nav CSS */

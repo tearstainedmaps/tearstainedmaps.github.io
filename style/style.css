@@ -17,16 +17,16 @@
 /* Modified content position */
   .overlay-content {
     position: relative;
-    top: 20%;
+    top: 10%;
     width: 100%;
     text-align: center;
     margin-top: 20px;
   }
   /* Modified padding and font size and color */
   .overlay a {
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 18px;
     color: #57f6fc;
     display: block;
     transition: 0.3s;
@@ -49,6 +49,7 @@
       padding-right: 25px;
       position: Fixed;
       background-color: #fff;
+      display: block;
   }
 
   #hamburger{
@@ -65,3 +66,14 @@
     }
   }
   /* End of Mobile Nav CSS */
+  /* Media Query to switch nav bars */
+
+ 
+  @media only screen and (min-width: 641px){
+      #mobileNav {display: none}
+      #desktopNav {display: block}
+  }
+  @media only screen and (max-width: 640px){
+    #mobileNav {display: block}
+    #desktopNav {display: none}
+}

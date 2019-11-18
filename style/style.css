@@ -67,6 +67,10 @@
   /* End of Mobile Nav CSS */
 
 /*Main Content Blocks CSS. Template from w3 Schools, Modified by Alison Orlandi */
+.maincontent{
+-webkit-appearance: none;
+}
+
 .columnleft {
   float: left;
   width: 30%;

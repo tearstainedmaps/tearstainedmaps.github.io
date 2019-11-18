@@ -1,10 +1,51 @@
 <html>
 <head>
 <title> TSM</title>
-<link rel= "stylesheet" href=>
+<link rel= "stylesheet" href=style/style.css>
 </head>
  <body>
 <!-- 1, Top menu bar-->
+    </head>
+    <body>
+    
+    <!-- Naming convention and javascript from W3Schools -->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Values</a></li>
+            
+            <li><a href="#">Services</a></li>
+            
+            <li><a href="#">Environmental Impact Assessment</a></li>
+            <li><a href="#">Data Management and Analysis</a></li>
+            <li><a href="#">GIS and Mapping</a></li>
+            <li><a href="#">Remote Sensing</a></li>
+            <li><a href="#">Urban Planning </a></li>
+            
+            <li><a href="#">Past Projects</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="mobileNav">
+    <span id="hamburger" style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    </div>
+    <script>
+    // Nav Overlay Script from W3Schools
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+    // End of Mobile Nav Script
+    </script>
 <!--2, Header image and title-->
 <!-- 7, drop down menu-->
 <!--Block 3, example text-->

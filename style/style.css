@@ -81,7 +81,7 @@
 
 /*Main Content Blocks CSS. Template from w3 Schools, Modified by Alison Orlandi */
 .maincontent{
-  -webkit-order: 0;
+  -webkit-order: 0!important;
 }
 .roweven, .rowodd {
 	font-family: Lato, Helvetica, Arial, sans-serif;

@@ -80,8 +80,7 @@
 
 /*Main Content Blocks CSS. Template from w3 Schools, Modified by Alison Orlandi */
 .maincontent{
-box-sizing: none;
--webkit-box-sizing: none;
+  -webkit-order: 0;
 }
 .roweven, .rowodd {
 	font-family: Lato, Helvetica, Arial, sans-serif;

@@ -79,6 +79,12 @@
 }
 
 /*Main Content Blocks CSS. Template from w3 Schools, Modified by Alison Orlandi */
+.roweven, .rowodd {
+	font-family: Lato, Helvetica, Arial, sans-serif;
+	color: #333333;
+	line-height: 1.4;
+}
+
 .columnleft {
   float: left;
   width: 30%;

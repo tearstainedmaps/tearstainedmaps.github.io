@@ -154,7 +154,7 @@ box-sizing: none;
 
 /* Mike Wagner added code for hero image and text for the header, source from w3schools */
 .hero-image {
-  background-image: url("Algonquin_10by3.png");
+  background-image: url("../Algonquin_10by3.png");
   background-color: #cccccc;
   height: 500px;
   background-position: center;

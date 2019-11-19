@@ -1,3 +1,5 @@
+
+
 /* Mobile Nav CSS From W3Schools Modified by Michael Rose  */
 .overlay {
     height: 0%;
@@ -152,7 +154,7 @@
 
 /* Mike Wagner added code for hero image and text for the header, source from w3schools */
 .hero-image {
-  background-image: url("../Algonquin_10by3.png");
+  background-image: url("../Photos/Algonquin_10by3.png");
   background-color: #cccccc;
   height: 500px;
   background-position: center;

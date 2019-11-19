@@ -1,142 +1,162 @@
-<html>
-<head>
-<title> TSM</title>
-<!--setting character encoding-->
-<meta charset="UTF-8"> 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Links for Desktop Nav -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><!--within css change colours, and button sizes to meet needs of 50% difference-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<!-- Reference our CSS -->
-<link rel= "stylesheet" href="style/style.css">
+<!DOCTYPE html>
+<html lang="en-US">
 
-<!--external font--> 
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7COpen+Sans:400" rel="stylesheet"> 
- 
+<head>
+  <!-- Setting character encoding -->
+  <meta charset="UTF-8"> 
+        
+  <!-- Setting title of page -->
+  <title>Tear Stained Maps</title>    
+
+  <!-- Setting the viewport for responsive web design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- External css for desktop navigation bar by Garrett Hogan -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><!--within css change colours, and button sizes to meet needs of 50% difference-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <!-- Format html document according to css stylesheet -->
+  <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
+  
+  <!-- External fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7COpen+Sans:400" rel="stylesheet">
+      
+  <!-- Favicon -->
+  <link href="Photos/TSMFavicon.png" rel="icon" type="image/png" sizes="32x32"> 
 </head>
- <body>
-<!-- 1, Top menu bar-->
-    </head>
-    <body>
-    
-    <!-- Naming convention and javascript from W3Schools -->
-    <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <div class="overlay-content">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            
-            <li><a href="#">Our Team</a></li>
-            <li><a href="#">Values</a></li>
-            
-            <li><a href="#">Services</a></li>
-            
-            <li><a href="#">Environmental Impact Assessment</a></li>
-            <li><a href="#">Data Management and Analysis</a></li>
-            <li><a href="#">GIS and Mapping</a></li>
-            <li><a href="#">Remote Sensing</a></li>
-            <li><a href="#">Urban Planning </a></li>
-            
-            <li><a href="#">Past Projects</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
+
+<body>
+
+  <!-- Mobile navigation bar: naming convention and javascript from W3Schools by Michael Rose -->
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Values</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Environmental Impact Assessment</a></li>
+        <li><a href="#">Data Management and Analysis</a></li>
+        <li><a href="#">GIS and Mapping</a></li>
+        <li><a href="#">Remote Sensing</a></li>
+        <li><a href="#">Urban Planning </a></li>   
+        <li><a href="#">Past Projects</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
     </div>
-    <div id="mobileNav">
-    <span id="hamburger" style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
-    </div>
-    <!-- Mike Wagner inserted code for hero images and hero text for header -->
-    <div class="hero-image">
-      <div class="hero-text">
-      <h1 style="font-size:50px">TSM</h1>
-      <h3>Tear Stained Maps</h3>
-          
-      </div>
   </div>
-    <script>
-    // Nav Overlay Script from W3Schools
+  
+  <!-- Mobile navgation bar: hamburger symbol by Michael Rose -->
+  <div id="mobileNav">
+    <span id="hamburger" style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+
+  <script>
+    // Nav Overlay Script from W3Schools by Michael Rose
     function openNav() {
       document.getElementById("myNav").style.height = "100%";
     }
-    
+      
     function closeNav() {
       document.getElementById("myNav").style.height = "0%";
     }
     // End of Mobile Nav Script
-    </script>
+  </script>
 
-    <!-- Desktop Navigation -->
-    <div id="desktopNav">
+  <!-- Desktop navigation bar by Garrett Hogan -->
+  <div id="desktopNav">
     <div class="btn-group">
       <button type="button" class="btn btn-primary">Home</button>
     </div>
-      <div class="btn-group">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-        About us <span class="caret"></span></button>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="#">Our Team</a></li>
-          <li><a href="#">Values</a></li>
-       </ul>
+    
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">About us <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Values</a></li>
+      </ul>
     </div>
-       <div class="btn-group">
-         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-         Services <span class="caret"></span></button>
-         <ul class="dropdown-menu" role="menu">
-           <li><a href="#">1</a></li>
-           <li><a href="#">2</a></li>
-       <li><a href="#">3</a></li>
-           <li><a href="#">4</a></li>
-       <li><a href="index.htm">5</a></li>
-         </ul>
-       <div class="btn-group">
-       <button type="button" class="btn btn-primary">Past Projects</button>
-     </div><!--may use url in box for these buttons-->
-     <div class="btn-group">
-       <button type="button" class="btn btn-primary">Contact us</button> 
-     </div>
-       </div>
-      </div>
-       <!-- End of Desktop Navigation -->
-<!--2, Header image and title-->
-<!-- 7, drop down menu-->
-<div class= "maincontent">
-  <div class="rowodd">
-      <div class="columnleft">
-          <h1>We Make Maps And Stuff</h1>
-          <p>Tear Stained Maps (TSM) is a consulting firm located in Lindsay, Ontario that provides geospatial, analytical, and geomatics consulting services. Established in 2009, we have served a wide range of public and private sector clients across Canada and internationally. With the goal of aligning Geographic Information Systems (GIS) best practices with our clients’ needs, we offer customized solutions and maximize spatial data to provide the information you need to complete your project successfully.</p>
-      </div>
-      <div class= "columnright">
-          <img class="sevenbyfive" src= Toronto_7by5.png alt="Toronto from Space">
-      </div>
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="index.htm">5</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Past Projects</button>
+    </div><!--may use url in box for these buttons-->
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Contact us</button> 
+    </div>
+      
   </div>
-  <div class= "roweven">
+
+  <!-- Header hero images and hero text by Michael Wagner -->
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 style="font-size:50px">Tear Stained Maps</h1>
+      <h3>Customized and efficient GIS solutions</h3>
+    </div>
+  </div>
+
+  <!-- Main content section by Alison Orlandi -->
+  <div class= "maincontent">
+
+    <div class="rowodd">
       <div class="columnleft">
-          <img class="sevenbyfive" src= Aerial_Photography_7by5.jpg alt="Aerial Photography">
+        <h1>We Make Maps And Stuff</h1>
+        <p>Tear Stained Maps (TSM) is a consulting firm located in Lindsay, Ontario that provides geospatial, analytical, and geomatics consulting services. Established in 2009, we have served a wide range of public and private sector clients across Canada and internationally. With the goal of aligning Geographic Information Systems (GIS) best practices with our clients’ needs, we offer customized solutions and maximize spatial data to provide the information you need to complete your project successfully.</p>
       </div>
+          
+      <div class= "columnright">
+        <img class="sevenbyfive" src="Photos/Toronto_7by5.png" alt="Toronto from Space">
+      </div>
+    </div>
+
+    <div class= "roweven">
+      <div class="columnleft">
+        <img class="sevenbyfive" src="Photos/Aerial_Photography_7by5.jpg" alt="Aerial Photography">
+      </div>
+      
       <div class="columnright">
-          <h1>Spatial Analysis is Hard, But We Kinda Know What We're Doing</h1>
-          <p>TSM can meet your needs whether you are looking for GIS outsourcing, GIS services, or need to hire GIS mapping consultants. Our expertise and technology will help you get the location-based results that will make your organization more efficient in time and cost.</p>
+        <h1>Spatial Analysis is Hard, But We Kinda Know What We're Doing</h1>
+        <p>TSM can meet your needs whether you are looking for GIS outsourcing, GIS services, or need to hire GIS mapping consultants. Our expertise and technology will help you get the location-based results that will make your organization more efficient in time and cost.</p>
       </div>   
-  </div>
-<div class="rowodd">
+    </div>
+
+    <div class="rowodd">
       <div class="columnleft">
-          <h1>We Do The Crying So You Don't Have To</h1>
-          <p>Tear Stained Maps (TSM) is a consulting firm located in Lindsay, Ontario that provides geospatial, analytical, and geomatics consulting services. Established in 2009, we have served a wide range of public and private sector clients across Canada and internationally. With the goal of aligning Geographic Information Systems (GIS) best practices with our clients’ needs, we offer customized solutions and maximize spatial data to provide the information you need to complete your project successfully.</p>
-      </div>
+        <h1>We Do The Crying So You Don't Have To</h1>
+        <p>Tear Stained Maps (TSM) is a consulting firm located in Lindsay, Ontario that provides geospatial, analytical, and geomatics consulting services. Established in 2009, we have served a wide range of public and private sector clients across Canada and internationally. With the goal of aligning Geographic Information Systems (GIS) best practices with our clients’ needs, we offer customized solutions and maximize spatial data to provide the information you need to complete your project successfully.</p>
+        </div>
+      
       <div class= "columnright">
-          <img class="sevenbyfive" src= RemoteSensing_7by5.png alt="Rice Lake False Colour Composite">
+        <img class="sevenbyfive" src="Photos/RemoteSensing_7by5.png" alt="Rice Lake False Colour Composite">
       </div>
-  </div>
-<div class= "roweven">
+    </div>
+
+    <div class= "roweven">
       <h1 class= "MissionText"> We Will Take Your Money to Do GIS</h1>
       <p class= "MissionText">Contact us today for the most mediocre GIS solutions for your business.</p>  
-  <img class="square" src= logoplaceholder.png alt="A Company logo">
+      <img class="square" src="Photos/logoplaceholder.png" alt="A Company logo">
+    </div>
   </div>
-</div>
-<div class= "footer">
-<p>Copyright Tear Stained Maps Ltd. 2019. Please hire use.</p>
-</div>
+
+  <!-- Footer by Alison Orlandi -->
+  <footer>
+    <p>Copyright Tear Stained Maps Ltd. 2019. Please hire us.</p>
+  </footer>
+
 </body>
+
 </html>

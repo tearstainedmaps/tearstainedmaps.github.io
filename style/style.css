@@ -12,6 +12,7 @@
     overflow-y: hidden;
     /* modified speed */
     transition: 0.3s;
+    z-index: 1000001;
   }
   
 /* Modified content position */
@@ -63,8 +64,6 @@
   @media screen and (max-height: 450px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    }
   }
   /* End of Mobile Nav CSS */
   /* Media Query to switch nav bars */

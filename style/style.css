@@ -127,11 +127,17 @@ ul {
 /* End of Mobile Nav CSS */
 /* Media Query to switch nav bars */
 
-@media only screen and (min-width: 641px){
+@media only screen and (min-width: 996px){
   #mobileNav {display: none}
-  #desktopNav {display: block}
+  #desktopNav {
+    width: 100%;
+    padding-right: 25px;
+    position: Fixed;
+    background-color: #fff;
+    display: block;
+    z-index: 1000000;}
 }
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 995px){
   #mobileNav {display: block}
   #desktopNav {display: none}
 }
@@ -144,7 +150,7 @@ ul {
 
 .navbar-brand {
   padding-left: 11%;
-  padding-right: 20%;
+  padding-right: 5%;
   }
   
 .logo{
@@ -177,7 +183,7 @@ ul {
   color: white;
   font-size:50px;
 }
-.hero-text h1 {
+.hero-section-text h1 {
   font-size:60px;
 }
 

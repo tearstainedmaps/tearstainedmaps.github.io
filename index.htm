@@ -11,10 +11,11 @@
   <!-- Setting the viewport for responsive web design -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- External css for desktop navigation bar by Garrett Hogan -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"><!--within css change colours, and button sizes to meet needs of 50% difference-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- Bootstrap css for desktop navigation bar -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   
   <!-- Format html document according to css stylesheet -->
   <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
@@ -36,13 +37,12 @@
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Our Team</a></li>
-        <li><a href="#">Values</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Environmental Impact Assessment</a></li>
         <li><a href="#">Data Management and Analysis</a></li>
         <li><a href="#">GIS and Mapping</a></li>
         <li><a href="#">Remote Sensing</a></li>
-        <li><a href="#">Urban Planning </a></li>   
+        <li><a href="#">Urban Planning</a></li>   
         <li><a href="#">Past Projects</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
@@ -66,46 +66,58 @@
     // End of Mobile Nav Script
   </script>
 
-  <!-- Desktop navigation bar by Garrett Hogan -->
+  
+  <!-- Desktop navigation bar by Garrett Hogan and Roshelle Chan -->
   <div id="desktopNav">
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary">Home</button>
-    </div>
-    
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">About us <span class="caret"></span></button>
-      <ul class="dropdown-menu" role="menu">
-        <li><a href="#">Our Team</a></li>
-        <li><a href="#">Values</a></li>
-      </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="Photos/TSMLogo.png" alt="Logo">
+        </a>
 
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></button>
-      <ul class="dropdown-menu" role="menu">
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="index.htm">5</a></li>
-      </ul>
-    </div>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
 
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary">Past Projects</button>
-    </div><!--may use url in box for these buttons-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Our Team</a>
+                <a class="dropdown-item" href="#">Values</a>
+              </div>
+            </li>
 
-    <div class="btn-group">
-      <button type="button" class="btn btn-primary">Contact us</button> 
-    </div>
-      
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Environmental Impact Assessment</a>
+                <a class="dropdown-item" href="#">Data Management and Analysis</a>
+                <a class="dropdown-item" href="#">GIS and Mapping</a>
+                <a class="dropdown-item" href="#">Remote Sensing</a>
+                <a class="dropdown-item" href="#">Urban Planning</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Past Projects</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link"  href="#">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+    </nav>
   </div>
+
 
   <!-- Header hero images and hero text by Michael Wagner -->
   <div class="hero-image">
     <div class="hero-text">
       <h1 style="font-size:50px">Tear Stained Maps</h1>
-      <h3>Customized and efficient GIS solutions</h3>
+      <h2>Customized and efficient GIS solutions</h2>
     </div>
   </div>
 
@@ -114,7 +126,7 @@
 
     <div class="rowodd">
       <div class="columnleft">
-        <h1>We Make Maps And Stuff</h1>
+        <h3>We Make Maps For You</h3>
         <p>Tear Stained Maps (TSM) is a consulting firm located in Lindsay, Ontario that provides geospatial, analytical, and geomatics consulting services. Established in 2009, we have served a wide range of public and private sector clients across Canada and internationally. With the goal of aligning Geographic Information Systems (GIS) best practices with our clients’ needs, we offer customized solutions and maximize spatial data to provide the information you need to complete your project successfully.</p>
       </div>
           
@@ -129,15 +141,15 @@
       </div>
       
       <div class="columnright">
-        <h1>Spatial Analysis is Hard, But We Kinda Know What We're Doing</h1>
+        <h3>Spatial Analysis is Hard, But We Know What We're Doing</h3>
         <p>TSM can meet your needs whether you are looking for GIS outsourcing, GIS services, or need to hire GIS mapping consultants. Our expertise and technology will help you get the location-based results that will make your organization more efficient in time and cost.</p>
       </div>   
     </div>
 
     <div class="rowodd">
       <div class="columnleft">
-        <h1>We Do The Crying So You Don't Have To</h1>
-        <p>Tear Stained Maps (TSM) is a consulting firm located in Lindsay, Ontario that provides geospatial, analytical, and geomatics consulting services. Established in 2009, we have served a wide range of public and private sector clients across Canada and internationally. With the goal of aligning Geographic Information Systems (GIS) best practices with our clients’ needs, we offer customized solutions and maximize spatial data to provide the information you need to complete your project successfully.</p>
+        <h3>We Do The Crying So You Don't Have To</h3>
+        <p>Whether you're performing a view-shed analysis, creating regulatory documents, or designing a new community plan, GIS is a crucial tool for data compilation, analysis, and visualization. We believe in GIS Technology and are dedicated to showing you how it can change your organization forever.</p>
         </div>
       
       <div class= "columnright">
@@ -145,16 +157,15 @@
       </div>
     </div>
 
-    <div class= "roweven">
-      <h1 class= "MissionText"> We Will Take Your Money to Do GIS</h1>
-      <p class= "MissionText">Contact us today for the most mediocre GIS solutions for your business.</p>  
-      <img class="square" src="Photos/logoplaceholder.png" alt="A Company logo">
-    </div>
-  </div>
 
   <!-- Footer by Alison Orlandi -->
   <footer>
-    <p>Copyright Tear Stained Maps Ltd. 2019. Please hire us.</p>
+    <div class= "roweven">
+      <h3 class= "MissionText"> We Will Take Your Money to Do GIS</h3>
+      <p class= "MissionText">Contact us today for the most mediocre GIS solutions for your business.</p>  
+      <img class="square" src="Photos/TSMFooter.png" alt="Company logo">
+    </div>
+    <p>&#9400 2019 Tear Stained Maps Ltd.</p>
   </footer>
 
 </body>

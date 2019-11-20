@@ -153,8 +153,8 @@ ul {
 }
 
 /*************** HEADER *************/
-/* Hero image and text for header by Michael Wagner, source from w3schools */
-.hero-image {
+/* Hero section and text for header owned by Michael Wagner, source from https://foundation.zurb.com/building-blocks/blocks/responsive-hero-section.html */
+.hero-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../Photos/City.jpg");
   background-color: #cccccc;
   height: 80%;
@@ -164,7 +164,7 @@ ul {
   position: relative;
 }
 
-.hero-text {
+.hero-section-text {
   text-align: center;
   position: absolute;
   top: 50%;

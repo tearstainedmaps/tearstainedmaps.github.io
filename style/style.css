@@ -1,4 +1,4 @@
-/** Overall settings **/
+/** Overall settings by Roshelle **/
 html {
   box-sizing: border-box;
   overflow-y: scroll;
@@ -11,12 +11,12 @@ body, html {
   font-family: Lato, Helvetica, Arial, sans-serif;
 }
 
-/***** H and P *****/
+/***** H and P by Roshelle *****/
 h1 {
 	display: block;
 	color:white;
-	font-size: 25px;
-  font-family: "Open Sans";
+	font-size: 50px;
+        font-family: "Open Sans";
 	font-weight: normal;
 	padding-bottom: 35px;
 	margin-top: 0px;
@@ -137,13 +137,14 @@ ul {
 }
 
 
-/********* DESKTOP NAV BAR *************/
+/********* DESKTOP NAV BAR by Roshelle *************/
 .bg-light{
   background-color: white!important;
 }
 
 .navbar-brand {
   padding-left: 11%;
+  padding-right: 20%;
   }
   
 .logo{
@@ -258,7 +259,7 @@ ul {
 }
 /* End of Main Content Blocks CSS*/
 
-/** FOOTER **/
+/** FOOTER by Roshelle **/
 footer {
   padding-top: 2%;
   background-color: white;

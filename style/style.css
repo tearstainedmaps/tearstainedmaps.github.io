@@ -174,11 +174,12 @@ ul {
 }
 
 
-/*Main Content Blocks CSS. Template from w3 Schools, Modified by Alison Orlandi */
+/*Main Content Blocks CSS. By Alison Orlandi */
 .roweven, .rowodd {
 	color: #333333;
 	line-height: 1.4;
 }
+/* Modified from w3 Schools */
 .columnleft {
   float: left;
   width: 45%;
@@ -195,40 +196,29 @@ ul {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-
+/*End of modified w3 schools CSS*/
 .rowodd::after, .roweven::after{
   content: "";
   clear: both;
   display: table;
 }
 .rowodd{
-  background-color: gainsboro;
+  background-color: whitesmoke;
 }
 
+/* Shadow box modified from w3 schools */
 .sevenbyfive {
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
- .square{
+/* Footer CSS modified from w3 schools */
+ .logofooter{
 	width: 20%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
  }
- 
-.MissionText{
-	text-align: center;
-	padding-left: 20%;
-	padding-right: 20%;
-}
-
-.footer {
-	background-color: whitesmoke;
-	text-align: center;
-	padding: 1%;
-}
-
 
 /* Responsive design for main content by Alison Orlandi */
 @media screen and (max-width: 800px) {
@@ -240,29 +230,19 @@ ul {
     padding-bottom:5%;
   }
 
-  .sevenbyfive, .square, .MissionText{
+  .sevenbyfive{
     width: 100%;
   }
-
-  .square{
-    width: 30%;
+  .logofooter{
+    width: 80%;
   }
-
 
 }
 /* End of Main Content Blocks CSS*/
 
 /** FOOTER **/
-footer {
-  padding-top: 2%;
-  background-color: white;
+footer p, footer h3{
+  text-align: center;
 }
 
-footer p{
-  padding-left: 11%;
-}
-.square {
-  padding-top: 1%;
-  padding-bottom: 2%;
-}
 

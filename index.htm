@@ -11,25 +11,24 @@
   <!-- Setting the viewport for responsive web design -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap css for desktop navigation bar -->
+  <!-- Bootstrap css for desktop navigation bar by Garrett Hogan, retrieved from Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  
   <!-- Format html document according to css stylesheet -->
   <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
   
-  <!-- External fonts -->
+  <!-- External fonts by Roshelle -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7COpen+Sans:400" rel="stylesheet">
       
-  <!-- Favicon -->
+  <!-- Favicon by Roshelle -->
   <link href="Photos/TSMFavicon.png" rel="icon" type="image/png" sizes="32x32"> 
 </head>
 
 <body>
 
-  <!-- Mobile navigation bar: naming convention and javascript from W3Schools by Michael Rose -->
+  <!-- Mobile navigation bar: naming convention and javascript from W3Schools owned by Michael Rose -->
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
@@ -51,7 +50,7 @@
   
   <!-- Mobile navgation bar: hamburger symbol by Michael Rose -->
   <div id="mobileNav">
-    <span id="hamburger" style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <span id="hamburger" onclick="openNav()">&#9776;</span>
   </div>
 
   <script>
@@ -67,7 +66,7 @@
   </script>
 
   
-  <!-- Desktop navigation bar by Garrett Hogan and Roshelle Chan -->
+  <!-- Desktop navigation bar owned by Garrett Hogan, from Bootstrap -->
   <div id="desktopNav">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
@@ -81,16 +80,16 @@
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                <div class="dropdown-menu" >
                 <a class="dropdown-item" href="#">Our Team</a>
                 <a class="dropdown-item" href="#">Values</a>
               </div>
             </li>
 
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+              <div class="dropdown-menu" >
                 <a class="dropdown-item" href="#">Environmental Impact Assessment</a>
                 <a class="dropdown-item" href="#">Data Management and Analysis</a>
                 <a class="dropdown-item" href="#">GIS and Mapping</a>
@@ -113,14 +112,15 @@
   </div>
 
 
-  <!-- Header hero images and hero text by Michael Wagner -->
-  <div class="hero-image">
-    <div class="hero-text">
-      <h1 style="font-size:50px">Tear Stained Maps</h1>
+  <!-- Hero section and text for header owned by Michael Wagner, source from https://foundation.zurb.com/building-blocks/blocks/responsive-hero-section.html -->
+  <div class="hero-section">
+    <div class="hero-section-text">
+      <h1 >Tear Stained Maps</h1>
       <h2>Customized and efficient GIS solutions</h2>
     </div>
   </div>
 
+  <!-- Main content section owned by Alison Orlandi -->
 
   <!-- Main content section by Alison Orlandi. Layout design modified from Geocommunity.net -->
 
@@ -160,6 +160,7 @@
         <!-- Image Source: https://blog.k2datascience.com/ds-fundamentals-databases-and-sql-a6ad5562abbc -->
         <img class="sevenbyfive" src="Photos/Database_7by5.jpg" alt="Database Design">
       </div>
+    </div>
     </div>
 
   <!-- Footer by Alison Orlandi -->

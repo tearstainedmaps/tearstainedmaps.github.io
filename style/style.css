@@ -155,7 +155,7 @@ ul {
 /*************** HEADER *************/
 /* Hero image and text for header by Michael Wagner, source from w3schools */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../Photos/City.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../Photos/City.jpg");
   background-color: #cccccc;
   height: 80%;
   background-position: center;

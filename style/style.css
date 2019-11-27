@@ -163,7 +163,7 @@ ul {
 
 /*************** HEADER *************/
 /* Hero section and text for header owned by Michael Wagner, source from https://foundation.zurb.com/building-blocks/blocks/responsive-hero-section.html */
-/* Background image retrieved from Pawel Nolbert on Unsplash*/
+/* Background image retrieved from Pawel Nolbert on Unsplash */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../Photos/City.jpg");
   background-color: #cccccc;
@@ -259,6 +259,7 @@ footer p, footer h3{
   text-align: center;
 }
 
+<<<<<<< HEAD
 /* Project Grid CSS */
 #pinBoot {
   margin-top: 30px;
@@ -291,3 +292,67 @@ img {
   max-width: 100%;
   height: auto;
 }
+=======
+
+/* Testing CSS for Services Page 
+#gkSidebar {
+  width: 33.333333%;
+  float: right;
+  padding-left: 45px;
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.9;
+  clear: both;
+  content: "";
+  display: table;
+}
+.box-wrap {
+  background: #1a4980 none repeat scroll 0 0;
+  border: none;
+  color: rgba(255,255,255,0.7);
+  padding: 32px;
+}
+
+.content{
+  max-width: 1040px;
+}
+
+.item{
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  position: relative;
+  line-height: 1.6;
+  padding: 7px 0;
+  text-align: center;
+  list-style-type: none;
+  
+}
+
+#navheader{
+  text-align: center;
+}*/
+
+
+/*Link CSS from w3 schools
+
+.gksidebar:link {
+  color: white; 
+  text-decoration: none;
+}
+
+.gksidebar:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+.gksidebar:hover {
+  color: white;
+  background-color: gray;
+}
+
+.gksidebar:active {
+  color: white;
+  background-color: gray;
+  text-decoration: underline;
+}
+*/
+>>>>>>> 93e040a566b67c2b9ca7e40b9e17b15ed9a9cd24

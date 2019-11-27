@@ -163,15 +163,20 @@ ul {
 
 /*************** HEADER *************/
 /* Hero section and text for header owned by Michael Wagner, source from https://foundation.zurb.com/building-blocks/blocks/responsive-hero-section.html */
-/* Background image retrieved from Pawel Nolbert on Unsplash */
+/* Found additional support from https://stackoverflow.com/questions/45529286/how-to-change-hero-image-based-on-html-page */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../Photos/City.jpg");
   background-color: #cccccc;
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+header#values-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/helena-lopes-PGnqT0rXWLs-unsplash.png"); /*Photo by Helena Lopes on Unsplash */
+}
+header#index-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/City.jpg"); /* Background image retrieved from Pawel Nolbert on Unsplash */
 }
 
 .hero-section-text {

@@ -163,7 +163,7 @@ ul {
 
 /*************** HEADER *************/
 /* Hero section and text for header owned by Michael Wagner, source from https://foundation.zurb.com/building-blocks/blocks/responsive-hero-section.html */
-/* Background image retrieved from Pawel Nolbert on Unsplash*/
+/* Background image retrieved from Pawel Nolbert on Unsplash */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../Photos/City.jpg");
   background-color: #cccccc;

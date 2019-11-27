@@ -188,7 +188,55 @@ ul {
 }
 
 
-/*Main Content Blocks CSS. By Alison Orlandi */
+
+/** hero image for contact page: https://www.ostraining.com/blog/coding/responsive-google-maps/ by Roshelle **/
+.hero-image-contact{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  width: 100vw;
+}
+
+#google-map {
+  left: 0;
+  top: 0;
+  width  : 100vw;
+  height : 380px;
+  position: absolute;
+}
+
+#google-map iframe {
+  width: 100%;
+}
+
+
+.hero-section-text-contact {
+  width  : 100%;
+  height : 600px;
+  background:black;
+  position: absolute;
+  opacity: 0.3;
+  top: 0px; 
+  left: 0px; 
+  z-index: 99;
+
+}
+
+.contact-headertext {
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:50px;
+  z-index: 1000;
+
+}
+
+
+
+  /*Main Content Blocks CSS. By Alison Orlandi */
 .roweven, .rowodd {
 	color: #333333;
 	line-height: 1.4;

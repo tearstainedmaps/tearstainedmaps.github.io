@@ -24,6 +24,8 @@
       
   <!-- Favicon by Roshelle -->
   <link href="Photos/TSMFavicon.png" rel="icon" type="image/png" sizes="32x32"> 
+
+  <script src="scripts/pinterest_grid.js"></script>
 </head>
 
 <body>
@@ -83,7 +85,7 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                 <div class="dropdown-menu" >
                 <a class="dropdown-item" href="#">Our Team</a>
-                <a class="dropdown-item" href="values.html">Values</a> <!--Mike Wagner added the values page-->
+                <a class="dropdown-item" href="#">Values</a>
               </div>
             </li>
 
@@ -120,48 +122,91 @@
     </div>
   </div>
 
- 
-  <!-- Main content section by Alison Orlandi. Layout design modified from Geocommunity.net -->
+  <!-- Main content section owned by Alison Orlandi -->
 
+  <!-- Main content section by Alison Orlandi. Layout design modified from Geocommunity.net -->
+  <div class= "roweven">
+    <div class="columnleft">
+      <!-- Photo Source: Landsat TM-->
+      <img class="sevenbyfive" src="Photos/RemoteSensing_7by5.png" alt="Aerial False Colour Composite of Rice Lake, ON">
+    </div>
+    
+    <div class="columnright">
+      <h3>Past Projects</h3>
+      <p>Here you can view a collection of our past projects.</p>
+    </div>   
+  </div>
   <!-- Row classes to assign coloured bands-->
     <div class="rowodd">
       <!-- Columns arrange content on the webpage-->
-      <div class="columnleft">
-        <h3>We Make Maps For You</h3>
-        <p>Tear Stained Maps (TSM) is a consulting firm located in Lindsay, Ontario that provides geospatial, analytical, and geomatics consulting services. Established in 2009, we have served a wide range of public and private sector clients across Canada and internationally. With the goal of aligning Geographic Information Systems (GIS) best practices with our clients’ needs, we offer customized solutions and maximize spatial data to provide the information you need to complete your project successfully.</p>
-      </div>
-          
-      <div class= "columnright">
-        <!-- Image SOurce: Google Earth -->
-        <img class="sevenbyfive" src="Photos/Earth_7by5.png" alt="North America from Space">
-      </div>
+      <!-- Start Project Grid -->
+      <section id="pinBoot">
+
+        <article class="white-panel"><img src="Photos/Aerial_Photography_7by5.jpg" alt="">
+          <h4><a href="#">Title 1</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+  
+        <article class="white-panel"> <img src="Photos/Algonquin_10by3.png" alt="">
+          <h4><a href="#">Title 2</a></h4>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+  
+        <article class="white-panel"> <img src="Photos/City.jpg" alt="">
+          <h4><a href="#">Title 3</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </article>
+  
+  
+        <article class="white-panel"> <img src="Photos/Database_7by5.jpg" alt="">
+          <h4><a href="#">Title 4</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+  
+        <article class="white-panel"> <img src="Photos/Earth_7by5.png" alt="">
+          <h4><a href="#">Title 5</a></h4>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+  
+        <article class="white-panel"> <img src="Photos/RemoteSensing_7by5.png" alt="">
+          <h4><a href="#">Title 6</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </article>
+  
+  
+  
+        <article class="white-panel"><img src="Photos/Toronto_7by5.png" alt="">
+          <h4><a href="#">Title 7</a></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+  
+        <article class="white-panel"> <img src="Photos/Toronto_7by5.png" alt="">
+          <h4><a href="#">Title 8</a></h4>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+  
+      </section>
+      <script >
+       $(document).ready(function() {
+$('#pinBoot').pinterest_grid({
+no_columns: 4,
+padding_x: 10,
+padding_y: 10,
+margin_bottom: 50,
+single_column_breakpoint: 700
+});
+});
+
+      </script>
+      <!-- End Project Grid -->
     </div>
 
-    <div class= "roweven">
-      <div class="columnleft">
-        <!-- Photo Source: Landsat TM-->
-        <img class="sevenbyfive" src="Photos/RemoteSensing_7by5.png" alt="Aerial False Colour Composite of Rice Lake, ON">
-      </div>
-      
-      <div class="columnright">
-        <h3>Spatial Analysis is Hard, But We Know What We're Doing</h3>
-        <p>TSM can meet your needs whether you are looking for GIS outsourcing, GIS services, or need to hire GIS mapping consultants. Our expertise and technology will help you get the location-based results that will make your organization more efficient in time and cost.</p>
-      </div>   
-    </div>
-
-    <div class="rowodd">
-      <div class="columnleft">
-        <h3>We Do The Crying So You Don't Have To</h3>
-        <p>Whether you're performing a view-shed analysis, creating regulatory documents, or designing a new community plan, GIS is a crucial tool for data compilation, analysis, and visualization. We believe in GIS Technology and are dedicated to showing you how it can change your organization forever.</p>
-        </div>
-      
-      <div class= "columnright">
-        <!-- Image Source: https://blog.k2datascience.com/ds-fundamentals-databases-and-sql-a6ad5562abbc -->
-        <img class="sevenbyfive" src="Photos/Database_7by5.jpg" alt="Database Design">
-      </div>
-    </div>
-
-  <!-- Footer by Alison Orlandi November 27th 2019-->
+  <!-- Footer by Alison Orlandi -->
   <footer>
     <h3> We Will Take Your Money to Do GIS</h3>
     <p>Contact us today for the most mediocre GIS solutions for your business.</p>  

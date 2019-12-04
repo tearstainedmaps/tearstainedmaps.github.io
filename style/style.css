@@ -481,6 +481,7 @@ img {
   background-color: white;
   overflow: hidden;
   padding-bottom: 200px;
+  margin-bottom: 80px;
 }
 
 #section-header1 {
@@ -634,6 +635,7 @@ img {
   transition: all .2s ease-in-out;
 }
 
+/**
 .social-media-list li:after {
   content: '';
   position: absolute;
@@ -646,6 +648,12 @@ img {
   opacity: 0;
   box-shadow: 0 0 0 1px #0087c9;
   transition: all .2s ease-in-out;
+}**/
+
+/* Thanks to Mike Rose, the links to the icons are fixed!!!*/
+.social-media-list li:hover {
+  background-color: rgb(189, 185, 185); 
+  box-shadow: 0 0 0 4px white, 0 0 0 5px #0087c9;
 }
 
 .social-media-list li:hover {

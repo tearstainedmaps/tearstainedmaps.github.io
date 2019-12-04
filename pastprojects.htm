@@ -116,12 +116,13 @@
 
 
   <!-- Hero section and text for header owned by Michael Wagner, source from https://foundation.zurb.com/building-blocks/blocks/responsive-hero-section.html -->
-  <div class="hero-image">
-    <div class="hero-section-text">
+  <!-- Found additional support from https://stackoverflow.com/questions/45529286/how-to-change-hero-image-based-on-html-page-->
+  <header id="pastprojects-image" class="hero-image">
+    <header id="pastprojects-text" class="hero-section-text">
       <h1 >Tear Stained Maps</h1>
-      <h2>Customized and efficient GIS solutions</h2>
-    </div>
-  </div>
+      <h2>Our Past Projects</h2>
+    </header>
+  </header>
 
   <!-- Main content section owned by Alison Orlandi -->
 
@@ -132,9 +133,10 @@
       <img class="sevenbyfive" src="Photos/RemoteSensing_7by5.png" alt="Aerial False Colour Composite of Rice Lake, ON">
     </div>
     
+ <!-- Layout by mike Rose, content added by Roshelle-->
     <div class="columnright">
       <h3>Past Projects</h3>
-      <p>Here you can view a collection of our past projects.</p>
+      <p>Here you can view a collection of our past projects that have been conducted by our company branch at <a href="http://geocommunity.net/projects.htm">Geocommunity.net.</a></p>
     </div>   
   </div>
   <!-- Row classes to assign coloured bands-->
@@ -143,54 +145,93 @@
       <!-- Start Project Grid -->
       <section id="pinBoot">
 
-        <article class="white-panel"><img src="Photos/Aerial_Photography_7by5.jpg" alt="">
-          <h4><a href="#">Title 1</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!-- Logging_Photo by Ales Krivec on Unsplash: https://unsplash.com/photos/KnV-mJDGWzU  -->
+        <article class="white-panel"><img src="Photos/Logging.jpg" alt="">
+          <h4><a href="http://geocommunity.net/projects.htm">Logging Scars: Quantifying the industrially impacted boreal forest of Ontario</a></h4>
+          <p>The Wildlands League has an ongoing project that has been examining the extent to which commercial forestry 
+            in Northern Ontario has had a lasting impact on the landscape. Currently, logging activities are managed under the 
+            assumption ~1% of the areas logged are lost to road footprints. However current work indicated this number seriously 
+            underestimates the extent of the logging scars of roads and roadside impacts. Our proof of concept work estimates 
+            that this number is closer to 10-15%. </p>
         </article>
   
-        <article class="white-panel"> <img src="Photos/Algonquin_10by3.png" alt="">
-          <h4><a href="#">Title 2</a></h4>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!-- Wastewater Photo by Ivan Bandura on Unsplash: https://unsplash.com/photos/Ac97OqAWDvg -->
+        <article class="white-panel"> <img src="Photos/Wastewater.jpg" alt="">
+          <h4><a href="http://geocommunity.net/projects.htm">Wastewater System Digital Location and Hydrological Modeling</a></h4>
+          <p>Taking the existing various sources (paper, digital, studies), create a wastewater network model with the goal of looking for opportunities to improve its flow rates and elevations on maintenance. For example, in years time when they replace a pipe section they can know to raise it to have better gravity flow and capacity. The data model created will be provided to the municipality and to the Ganaraska Conservation Authority to be housed in Geocortex. 
+            A demo Geocortex site can be created to permit a more easily transferred into the GRCA site.</p>
         </article>
   
-        <article class="white-panel"> <img src="Photos/City.jpg" alt="">
-          <h4><a href="#">Title 3</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <!-- Photo sourced from https://www.thecanadianencyclopedia.caenarticleniagara-escarpment  -->
+        <article class="white-panel"> <img src="Photos/Niagara.jpg" alt="">
+          <h4><a href="http://geocommunity.net/projects.htm">An interactive WebMap and a field application for the Niagara Escarpment Commission</a></h4>
+          <p>The purpose of an interactive, lightweight online GIS application/WebMap is to provide NEC (Niagara Escarpment Commission) staff with relevant information in a quick and easy to use package that they can bring up in a web browser when taking inquiry calls or working from home.
+            The Collector field app will allow compliance officers to view NEC map layers, and collect information in the field.</p>
         </article>
   
-  
-        <article class="white-panel"> <img src="Photos/Database_7by5.jpg" alt="">
-          <h4><a href="#">Title 4</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!-- Ontario Photo by nrd on Unsplash: https://unsplash.com/photos/D6Tu_L3chLE    -->
+        <article class="white-panel"> <img src="Photos/Ontario.jpg" alt="">
+          <h4><a href="http://geocommunity.net/projects.htm">Food Insecurity in Ontario by Electoral Riding</a></h4>
+          <p>The Ontario Association of Food Banks is a network of 130 direct member food banks, and over 1,100 
+            affiliate hunger-relief agencies across the province. Together, our network serves over half a million 
+            adults, children and seniors every year. Hunger differs significantly across the province, for a wide 
+            variety of reasons (lack of suitable employment, environmental factors, remote community location, cost 
+            of living, etc.). It is our hope that, through this project, we will be able learn more about hunger at 
+            the local level and, in turn, identify strategies for reaching and serving those who need food assistance 
+            and support throughout the year. It is also our hope that by mapping food bank use by electoral district it 
+            will support our advocacy objectives at Queen's Park by better informing Members of Provincial Parliament 
+            about hunger and poverty in their constituencies.</p>
         </article>
   
-        <article class="white-panel"> <img src="Photos/Earth_7by5.png" alt="">
-          <h4><a href="#">Title 5</a></h4>
-          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!-- Flood Photo by Wade Austin Ellis on Unsplash: https://unsplash.com/photos/5T7dG1MRA3U-->
+        <article class="white-panel"> <img src="Photos/Flood.jpg" alt="">
+          <h4><a href="http://geocommunity.net/projects.htm">Developing GIS communication tools for Flood Risk in the GTA</a></h4>
+          <p>This project involves the creation of a state of the art web-based communication tool to communicate river-related geospatial flood 
+            risk information (flood extents, depths, velocities, threat to loss of life, impacted buildings and roads, etc.) 
+            to the public in an educational, interactive, intuitive, and visually appealing manner. At locations where data is
+             available, the website would link to measured water levels at our real-time stream gauge locations to allow users
+              to view near-realtime geospatial flood risk information. Spatial analysis of geospatial data may be required to 
+              create interpolated layers in-between known flood extents at known water surface elevations. GIS statistical 
+              analysis may be required to provide educational summary statistics at flood-vulnerable clusters.</p>
         </article>
   
-        <article class="white-panel"> <img src="Photos/RemoteSensing_7by5.png" alt="">
-          <h4><a href="#">Title 6</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <!-- Image sourced from Geoff Brooks on Unsplash: https://unsplash.com/photos/TomNEOzcGWk -->
+        <article class="white-panel"> <img src="Photos/Bats.jpg" alt="">
+          <h4><a href="http://geocommunity.net/projects.htm"> Forestry Searching for habitat associations of foraging bats across Ontario landscapes</a></h4>
+          <p>White-nose syndrome (WNS) has caused high mortality in eastern North American bats. 
+            Wind facilities may further threaten bat populations. To assess these impacts, mortality 
+            counts must be considered in relation to population size, but reliable population estimates 
+            for Ontario's 8 bat species do not exist. To establish a baseline for the current distribution, 
+            abundance and foraging habitats of bats, mobile acoustic transects have been run across the province 
+            using randomly selected locations stratified by ecoregion. Bat echolocation calls are recorded along each 
+            route while driving at 32 km/hr. These high frequency calls can often be identified to species and this 
+            speed allows the separation of individual bats. This project will focus on determining the key foraging 
+            habitats of bats using this data and whether these habitats differ between bat species and between northern 
+            and southern Ontario.</p>
         </article>
   
-  
-  
-        <article class="white-panel"><img src="Photos/Toronto_7by5.png" alt="">
-          <h4><a href="#">Title 7</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!-- Watershed Photo by Michael Browning on Unsplash: https://unsplash.com/photos/JSAXW9q5WC0  -->
+        <article class="white-panel"><img src="Photos/Watershed.jpg" alt="">
+          <h4><a href="http://geocommunity.net/projects.htm">Watershed Data Package for Ministry of the Environment, Conservation and Parks</a></h4>
+          <p>Identifying land-based Anthropogenic Stressors related to Great Lake Watersheds. 
+            Analyzing various parameters related to these stressors, and come up with a dynamic service 
+            package through ArcGIS Enterprise that will be used within the Ministry to inform individuals 
+            about the information related to a specific Great Lakes Watershed.</p>
         </article>
   
         <article class="white-panel"> <img src="Photos/Toronto_7by5.png" alt="">
-          <h4><a href="#">Title 8</a></h4>
-          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h4><a href="http://geocommunity.net/projects.htm">Clarington Development Applications Dashboard</a></h4>
+          <p>Clarington currently operates a basic Development Applications Portal for planners and staff 
+            to review current planning applications in Municipality. This basic portal needs to be re-invented 
+            into a fully functional Geospatial Portal that allows planners and staff to map their own applications 
+            as oppose to GIS being needed to map them. A dashboard (operations dashboard perhaps) that gives a quick
+             view on where applications are, there status and other statistics would be ideal. This portal would have 
+             three functions: 1. To view current applications, pull statistics/reports from them and make decisions 
+             based on the information given, 2. Allow planners to add spatial extents to their applications without 
+             the need of a GIS staff member and 3. Ensure background database quality control, via several check and
+              balances. </p>
         </article>
-  
+
       </section>
       <script >
        $(document).ready(function() {

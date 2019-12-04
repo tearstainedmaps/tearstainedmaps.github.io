@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <!-- Setting character encoding -->
+  <meta charset="UTF-8"> 
+
+  <!-- Setting title of page -->
+  <title>Tear Stained Maps</title>    
+
+  <!-- Setting the viewport for responsive web design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap css for desktop navigation bar by Garrett Hogan, retrieved from Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Format html document according to css stylesheet -->
+  <link href="style/style.css" rel="stylesheet" type="text/css" media="all">
+
+  <!-- External fonts by Roshelle -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7COpen+Sans:400" rel="stylesheet">
+
+   <!-- Favicon by Roshelle -->
+  <link href="Photos/TSMFavicon.png" rel="icon" type="image/png" sizes="32x32"> 
+</head>
+  <!-- Mobile navigation bar: naming convention and javascript from W3Schools owned by Michael Rose -->
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <ul>
+        <li><a href="index.htm">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="teampage.html">Our Team</a></li>
+        <li><a href="Services.htm">Services</a></li>
+        <li><a href="EnvAssessment.htm">Environmental Impact Assessment</a></li>
+        <li><a href="DataMng.htm">Data Management and Analysis</a></li>
+        <li><a href="GIS.htm">GIS and Mapping</a></li>
+        <li><a href="RemoteSensing.htm">Remote Sensing</a></li>
+        <li><a href="#">Urban Planning</a></li>   
+        <li><a href="pastprojects.htm">Past Projects</a></li>
+        <li><a href="contact.htm">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Mobile navgation bar: hamburger symbol by Michael Rose -->
+  <div id="mobileNav">
+    <span id="hamburger" onclick="openNav()">&#9776;</span>
+  </div>
+
+  <script>
+    // Nav Overlay Script from W3Schools by Michael Rose
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+      
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+    // End of Mobile Nav Script
+  </script>
+
+
+  <!-- Desktop navigation bar owned by Garrett Hogan, from Bootstrap -->
+  <div id="desktopNav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="Photos/TSMLogo.png" alt="Logo">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.htm">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                <div class="dropdown-menu" >
+                <a class="dropdown-item" href="teampage.html">Our Team</a>
+                <a class="dropdown-item" href="Values.html">Values</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+              <div class="dropdown-menu" >
+                <a class="dropdown-item" href="EnvAssessment.htm">Environmental Impact Assessment</a>
+                <a class="dropdown-item" href="DataMng.htm">Data Management and Analysis</a>
+                <a class="dropdown-item" href="GIS.htm">GIS and Mapping</a>
+                <a class="dropdown-item" href="RemoteSensing.htm">Remote Sensing</a>
+                <a class="dropdown-item" href="#">Urban Planning</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="pastprojects.htm">Past Projects</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link"  href="contact.htm">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+    </nav>
+  </div>
+
+ <!-- Hero section and text for header owned by Michael Wagner, source from https://foundation.zurb.com/building-blocks/blocks/responsive-hero-section.html -->
+  <!-- Found additional support from https://stackoverflow.com/questions/45529286/how-to-change-hero-image-based-on-html-page--->
+  <header id="teampage-image" class="hero-image">
+    <header id="teampage-text" class="hero-section-text">
+      <h1 >Tear Stained Maps</h1>
+      <h2>Our Team</h2>
+    </header>
+  </header>
+<!--Garrett, made boxes, title positions and photo/information boxes for employees. Alt text for lack of actual photos.-->
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="Photos/Alison.png" alt="Alison O" style="width:100%">
+        <div class="container">
+          <h3>Alison Orlandi</h3>
+          <p class="Position">Tear CEO &amp; Founder</p>
+          <p>Alison has over 20 years of experience in GIS, remote sensing, information management 
+            and database development within the environmental industry. She has supervised numerous 
+            large multi-disciplinary projects in varying localities of North and South America. Alison 
+            specializes in image classification and feature extraction, environmental assessments, disturbance
+             scenario development and landscape change over time, wildlife habitat and movement models, and 
+             database applications. </p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Photos/Garrett.png" alt="Garrett H" style="width:100%">
+        <div class="container">
+          <h3>Garrett Hogan</h3>
+          <p class="Position">Janitor of Tears</p>
+          <p>Garrett has a background in geography and business with a focus in GIS and remote sensing. 
+            He is well versed in spatial data creation, editing, processing, and the development of web 
+            mapping applications. Garrett has experience in the capture and conversion of features through 
+            visual inspection of imagery, image scanning, linework conversion, digitization and attribution. 
+            In addition, he has applied land use classification techniques to various types of remote sensing data 
+            to develop agricultural land use inventories. </p>
+          <p>Ghogan@tearstainedmaps.ca</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Photos/Rose.png" alt="Mike R" style="width:100%">
+        <div class="container">
+          <h3>Mike Rose</h3>
+          <p class="position">Designer of Tear Stains</p>
+          <p>Mike Rose has more than 18 years of experience related to spatial application development. 
+            He specializes in automating workflows and building web, mobile and desktop applications that utilize GIS, 
+            remote sensing and relational database technology. Solutions have ranged in scale from simple single-user desktop 
+            applications to complex multi-tiered, multi-user enterprise applications utilizing fully versioned SDE workflows for 
+            the environmental, forestry, agriculture, mining, and oil & gas sectors with organizations of all sizes. </p>
+          <p>Mrose@tearstainedmaps.ca</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="Photos/Wagner.png" alt="Mike W" style="width:100%">
+        <div class="container">
+          <h3>Mike Wagner</h3>
+          <p class="position">Tear Stained Human Resources</p>
+          <p>Mike Wagner has over 20 years of experience with GIS, remote sensing, information management and 
+            database applications. His expertise includes a blend of technical and management roles focussing on 
+            assisting practitioners in science, engineering and policy to build geospatial solutions into their decision 
+            processes. This approach connects the right spatial data with a technical solution that brings effective results. 
+            Mike’s project experience has been focused on lead roles in western Canada with several on-site projects in North 
+            and South America, Asia and Australia. </p>
+          <p>Mwagner@tearstainedmaps.ca</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Photos/Roshelle.png" alt="Roshelle" style="width:100%">
+        <div class="container">
+          <h3>Roshelle Chan</h3>
+          <p class="position">Manager of Tears</p>
+          <p>Roshelle has over eight years of GIS experience in the environmental consulting sector. 
+            She has been a key resource in the development of innovative strategies to analyze data, visualize results, 
+            document processes, and improve quality control. Roshelle  creates web mapping applications to visualize data, 
+            support decision making, and meet project objectives. She has experience managing large spatial datasets, processing 
+            scientific data, and creating maps and metrics in support of environmental planning and permitting processes. </p>
+          <p>Rchan@tearstainedmaps.ca</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Photos/You.png" alt="Vacant" style="width:100%">
+        <div class="container">
+          <h3>Could Be You</h3>
+          <p class="position">Tearing GIS Tech</p>
+          <p>Send us an email at enquiries@tearstainedmaps.ca to apply for a position now!</p>
+
+        </div>
+      </div>
+    </div>

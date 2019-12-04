@@ -126,6 +126,16 @@ p {
   font-size:50px;
   cursor: pointer;
 }
+
+.logomobile {
+  float: left;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
 ul {
   padding: 0px;
 }
@@ -182,13 +192,33 @@ ul {
   background-size: cover;
   position: relative;
 }
-header#values-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/helena-lopes-PGnqT0rXWLs-unsplash.png"); /*Photo by Helena Lopes on Unsplash */
-}
 header#index-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/City.jpg"); /* Background image retrieved from Pawel Nolbert on Unsplash */
 }
-
+header#values-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/helena-lopes-PGnqT0rXWLs-unsplash.png"); /*Photo by Helena Lopes on Unsplash */
+}
+header#teampage-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
+}
+header#Services-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
+}
+header#DataMng-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
+}
+header#EnvAssessment-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
+}
+header#GIS-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
+}
+header#RemoteSensing-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
+}
+header#pastprojects-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
+}
 .hero-section-text {
   text-align: center;
   position: absolute;
@@ -439,7 +469,11 @@ img {
 .item a:visited {
   color: #cccccc
 }
+<<<<<<< HEAD
 */
+=======
+
+>>>>>>> a7ed98e9bfe19903f3c755bf432dc67ef8cd4b12
 
 
 
@@ -451,6 +485,7 @@ img {
   background-color: white;
   overflow: hidden;
   padding-bottom: 200px;
+  margin-bottom: 80px;
 }
 
 #section-header1 {
@@ -604,6 +639,7 @@ img {
   transition: all .2s ease-in-out;
 }
 
+/**
 .social-media-list li:after {
   content: '';
   position: absolute;
@@ -616,6 +652,12 @@ img {
   opacity: 0;
   box-shadow: 0 0 0 1px #0087c9;
   transition: all .2s ease-in-out;
+}**/
+
+/* Thanks to Mike Rose, the links to the icons are fixed!!!*/
+.social-media-list li:hover {
+  background-color: rgb(189, 185, 185); 
+  box-shadow: 0 0 0 4px white, 0 0 0 5px #0087c9;
 }
 
 .social-media-list li:hover {
@@ -720,3 +762,32 @@ hr {
     width: 99%;
   }
 }
+<<<<<<< HEAD
+=======
+
+/** teampages*//
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+>>>>>>> a7ed98e9bfe19903f3c755bf432dc67ef8cd4b12

@@ -182,13 +182,13 @@ ul {
   background-size: cover;
   position: relative;
 }
-header#index-image {
+div#index-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/City.jpg"); /* Background image retrieved from Pawel Nolbert on Unsplash */
 }
-header#values-image {
+div#values-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/helena-lopes-PGnqT0rXWLs-unsplash.png"); /*Photo by Helena Lopes on Unsplash */
 }
-header#teampage-image {
+div#teampage-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
 }
 header#Services-image {
@@ -206,7 +206,7 @@ header#GIS-image {
 header#RemoteSensing-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/RemoteSensing_7by5.png"); /*Photo by Ontario MNR */
 }
-header#pastprojects-image {
+div#pastprojects-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/alvaro-reyes-qWwpHwip31M-unsplash.jpg"); /*Photo by Alvaro Reyes on Unsplash */
 }
 .hero-section-text {

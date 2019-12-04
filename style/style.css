@@ -201,20 +201,8 @@ header#values-image {
 header#teampage-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
 }
-header#Services-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
-}
-header#DataMng-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
-}
-header#EnvAssessment-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
-}
-header#GIS-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
-}
-header#RemoteSensing-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
+div#services-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/earthfromspace.jpg"); /*Photo from Google Maps */
 }
 header#pastprojects-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
@@ -447,16 +435,6 @@ img {
 
 }
 
-/* Service pages header image. By Mike Wagner. Image source: Google Maps*/
-.services-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../Photos/Algonquin_10by3.png");
-  background-color: #cccccc;
-  height: 80%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
 
 /*Services NavBar link CSS. By Alison Orlandi, modified from: https://www.w3schools.com/css/css_link.asp*/

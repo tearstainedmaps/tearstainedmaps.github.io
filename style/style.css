@@ -478,6 +478,12 @@ img {
   padding-bottom: 2%;
 }
 
+#section-header3 {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 0px;
+}
+
 .contact-wrapper {
   margin: 0 auto;
   padding-top: 20px;
@@ -526,6 +532,7 @@ img {
   font: 300 14px 'Lato', sans-serif;
   letter-spacing: 2px;
   padding-right: 15px;
+  padding-top: 5px;
 }
 
 .button:hover {

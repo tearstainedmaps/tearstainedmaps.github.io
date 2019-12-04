@@ -126,6 +126,16 @@ p {
   font-size:50px;
   cursor: pointer;
 }
+
+.logomobile {
+  float: left;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
 ul {
   padding: 0px;
 }
@@ -191,23 +201,16 @@ div#values-image {
 div#teampage-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
 }
-header#Services-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
+div#services-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/earthfromspace.jpg"); /*Photo from Google Maps */
 }
-header#DataMng-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/markus-spiske-xekxE_VR0Ec-unsplash.jpg"); /*Photo by Markus Spiske on Unsplash */
-}
-header#EnvAssessment-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/noaa--urO88VoCRE-unsplash.jpg"); /*Photo by NOAA on Unsplash */
-}
-header#GIS-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/yucel-moran-Ky9JHrdvb1o-unsplash.jpg"); /*Photo by Yucel Moran on Unsplash */
-}
-header#RemoteSensing-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/RemoteSensing_7by5.png"); /*Photo by Ontario MNR */
-}
+<<<<<<< HEAD
 div#pastprojects-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/alvaro-reyes-qWwpHwip31M-unsplash.jpg"); /*Photo by Alvaro Reyes on Unsplash */
+=======
+header#pastprojects-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
+>>>>>>> 70b7adc554d9aa56520eb88580f9c218333bbf44
 }
 .hero-section-text {
   text-align: center;
@@ -224,7 +227,7 @@ div#pastprojects-image {
 
 
 
-/** hero image for contact page: https://www.ostraining.com/blog/coding/responsive-google-maps/ by Roshelle **/
+/** Hero image for contact page: https://www.ostraining.com/blog/coding/responsive-google-maps/ by Roshelle **/
 .hero-image-contact{
   overflow:hidden;
   padding-bottom:600px;
@@ -232,6 +235,7 @@ div#pastprojects-image {
   height:0;
   width: 100vw;
 }
+
 
 #google-map {
   left: 0;
@@ -268,10 +272,10 @@ div#pastprojects-image {
   z-index: 1000;
 
 }
+/** End of Contact us hero image by Roshelle **/
 
 
-
-  /*Main Content Blocks CSS. By Alison Orlandi */
+/*Main Content Blocks CSS. By Alison Orlandi */
 .roweven, .rowodd {
 	color: #333333;
 	line-height: 1.4;
@@ -293,7 +297,7 @@ div#pastprojects-image {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-/*End of modified w3 schools CSS*/
+
 .rowodd::after, .roweven::after{
   content: "";
   clear: both;
@@ -303,19 +307,21 @@ div#pastprojects-image {
   background-color: whitesmoke;
 }
 
-/* Shadow box modified from w3 schools */
+/* Shadow box modified from w3 schools.  */
 .sevenbyfive {
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* Footer CSS modified from w3 schools */
+/* Footer CSS modified from w3 schools. */
  .logofooter{
 	width: 20%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
  }
+
+ /* End of main content blocks CSS. Coded by Alison Orlandi */
 
 /* Responsive design for main content owned by Alison Orlandi */
 @media screen and (max-width: 800px) {
@@ -434,16 +440,6 @@ img {
 
 }
 
-/* Service pages header image. By Mike Wagner. Image source: Google Maps*/
-.services-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../Photos/Algonquin_10by3.png");
-  background-color: #cccccc;
-  height: 80%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
 
 /*Services NavBar link CSS. By Alison Orlandi, modified from: https://www.w3schools.com/css/css_link.asp*/
@@ -463,7 +459,8 @@ img {
 
 
 
-/** Contact Us CSS by Roshelle **/
+/** Start of Contact Us CSS by Roshelle **/
+/** Largely inspired by https://codepen.io/bobbykorec/pen/qOGbyr?editors=1100 **/
 
 #contact {
   width: 100%;
@@ -471,6 +468,7 @@ img {
   background-color: white;
   overflow: hidden;
   padding-bottom: 200px;
+  margin-bottom: 80px;
 }
 
 #section-header1 {
@@ -485,7 +483,11 @@ img {
   padding-bottom: 2%;
 }
 
-
+#section-header3 {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 0px;
+}
 
 .contact-wrapper {
   margin: 0 auto;
@@ -535,6 +537,7 @@ img {
   font: 300 14px 'Lato', sans-serif;
   letter-spacing: 2px;
   padding-right: 15px;
+  padding-top: 5px;
 }
 
 .button:hover {
@@ -548,11 +551,10 @@ img {
   margin-top: 5px;
 }
 
-/* Location, Phone, Email Section */
+/* Contact Us- Location, Phone, Email Section */
 .contact-hr {
   border-color: darkgray;
 }
-
 
 .contact-list {
   list-style-type: none;
@@ -595,7 +597,7 @@ img {
 }
 
 
-/* Social Media Icons */
+/* Contact us - Social Media Icons */
 .social-media-list {
   position: relative;
   font-size: 2.3rem;
@@ -624,18 +626,11 @@ img {
   transition: all .2s ease-in-out;
 }
 
-.social-media-list li:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  border-radius: 50%;
-  opacity: 0;
-  box-shadow: 0 0 0 1px #0087c9;
-  transition: all .2s ease-in-out;
+/* A big thank you to Mike Rose for fixing the links to the icons!! Previously 
+the design prevented the links from showing up/working - Rosh */
+.social-media-list li:hover {
+  background-color: rgb(189, 185, 185); 
+  box-shadow: 0 0 0 4px white, 0 0 0 5px #0087c9;
 }
 
 .social-media-list li:hover {
@@ -667,7 +662,8 @@ hr {
   background-color: #0087c9;
   border-color: #0087c9;
 }
-/* Begin Media Queries*/
+
+/* Responsive Contact us form - Begin Media Queries*/
 @media screen and (max-width: 760px) {
     #contact {
         height: 1000px;
@@ -739,4 +735,31 @@ hr {
   .send-button {
     width: 99%;
   }
+}
+
+
+/** Team page by Garrett Hogan */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
 }

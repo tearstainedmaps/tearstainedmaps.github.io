@@ -30,81 +30,80 @@
 
   <!-- Mobile navigation bar: naming convention and javascript from W3Schools owned by Michael Rose -->
   <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-      <ul>
-        <li><a href="index.htm">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Our Team</a></li>
-        <li><a href="Services.htm">Services</a></li>
-        <li><a href="EnvAssessment.htm">Environmental Impact Assessment</a></li>
-        <li><a href="DataMng.htm">Data Management and Analysis</a></li>
-        <li><a href="GIS.htm">GIS and Mapping</a></li>
-        <li><a href="RemoteSensing.htm">Remote Sensing</a></li>
-        <li><a href="#">Urban Planning</a></li>   
-        <li><a href="#">Past Projects</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <ul>
+          <li><a href="index.htm">Home</a></li>
+          <li><a href="values.htm">About</a></li>
+          <li><a href="teampage.htm">Our Team</a></li>
+          <li><a href="Services.htm">Services</a></li>
+          <li><a href="EnvAssessment.htm">Environmental Impact Assessment</a></li>
+          <li><a href="DataMng.htm">Data Management and Analysis</a></li>
+          <li><a href="GIS.htm">GIS and Mapping</a></li>
+          <li><a href="RemoteSensing.htm">Remote Sensing</a></li>  
+          <li><a href="pastprojects.htm">Past Projects</a></li>
+          <li><a href="contact.htm">Contact Us</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
+    
+    <!-- Mobile navgation bar: hamburger symbol by Michael Rose -->
+    <div id="mobileNav">
+      <span id="hamburger" onclick="openNav()">&#9776;</span>
+    </div>
   
-  <!-- Mobile navgation bar: hamburger symbol by Michael Rose -->
-  <div id="mobileNav">
-    <span id="hamburger" onclick="openNav()">&#9776;</span>
-  </div>
-
-  <script>
-    // Nav Overlay Script from W3Schools by Michael Rose
-    function openNav() {
-      document.getElementById("myNav").style.height = "100%";
-    }
-      
-    function closeNav() {
-      document.getElementById("myNav").style.height = "0%";
-    }
-    // End of Mobile Nav Script
-  </script>
-
+    <script>
+      // Nav Overlay Script from W3Schools by Michael Rose
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+        
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+      }
+      // End of Mobile Nav Script
+    </script>
   
-  <!-- Desktop navigation bar owned by Garrett Hogan, from Bootstrap -->
-  <div id="desktopNav">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img class="logo" src="Photos/TSMLogo.png" alt="Logo">
-        </a>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.htm">Home <span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+    
+    <!-- Desktop navigation bar owned by Garrett Hogan, from Bootstrap -->
+    <div id="desktopNav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+              <img class="logo" src="Photos/TSMLogo.png" alt="Logo">
+          </a>
+  
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.htm">Home <span class="sr-only">(current)</span></a>
+              </li>
+  
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                  <div class="dropdown-menu" >
+                  <a class="dropdown-item" href="teampage.htm">Our Team</a>
+                  <a class="dropdown-item" href="values.htm">Values</a>
+                </div>
+              </li>
+  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
                 <div class="dropdown-menu" >
-                <a class="dropdown-item" href="#">Our Team</a>
-                <a class="dropdown-item" href="values.html">Values</a>
-              </div>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="Services.htm" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-              <div class="dropdown-menu" >
-                <a class="dropdown-item" href="EnvAssessment.htm">Environmental Impact Assessment</a>
-                <a class="dropdown-item" href="DataMng.htm">Data Management and Analysis</a>
-                <a class="dropdown-item" href="GIS.htm">GIS and Mapping</a>
-                <a class="dropdown-item" href="RemoteSensing.htm">Remote Sensing</a>
-              </div>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link" href="pastprojects.htm">Past Projects</a>
-            </li>
-
-            <li class="nav-item">
-                <a class="nav-link"  href="#">Contact</a>
-            </li>
-
+                  <a class="dropdown-item" href="Services.htm">Services Overview</a>
+                  <a class="dropdown-item" href="EnvAssessment.htm">Environmental Impact Assessment</a>
+                  <a class="dropdown-item" href="DataMng.htm">Data Management and Analysis</a>
+                  <a class="dropdown-item" href="GIS.htm">GIS and Mapping</a>
+                  <a class="dropdown-item" href="RemoteSensing.htm">Remote Sensing</a>
+                </div>
+              </li>
+  
+              <li class="nav-item">
+                  <a class="nav-link" href="pastprojects.htm">Past Projects</a>
+              </li>
+  
+              <li class="nav-item">
+                  <a class="nav-link"  href="contact.htm">Contact</a>
+              </li>
           </ul>
         </div>
     </nav>
@@ -113,13 +112,12 @@
 
    <!-- Hero section and text for header owned by Michael Wagner, source from https://foundation.zurb.com/building-blocks/blocks/responsive-hero-section.html -->
   <!-- Found additional support from https://stackoverflow.com/questions/45529286/how-to-change-hero-image-based-on-html-page-->
-  <header id="DataMng-image" class="hero-image">
-    <header id="DataMng-text" class="hero-section-text">
+  <div id="services-image" class="hero-image">
+    <header class="hero-section-text">
       <h1 >Tear Stained Maps</h1>
-      <h2>Database Management</h2>
+      <h2>Environmental Assessment</h2>
     </header>
-  </header>
-
+  </div>
 
 <!-- HTML for main content, by Alison Orlandi,  Modified from LGL -->
 <div class = "rowodd">
@@ -127,6 +125,7 @@
       <h3>Data Management Services</h3>
       <p>TSM has created standardized data models for managing the evolving flow of information from our clients to our systems and methods. The standardized model helps our project teams and clients in delivering a clean and concise data structure. Our team can also install and collect monitoring network data to deliver temporal data analysis that can be automatically transferred into project databases where they can be further processed for modelling.   </p>
       <br />
+      <!-- Image source: https://blog.k2datascience.com/ds-fundamentals-databases-and-sql-a6ad5562abbc-->
       <img class="sevenbyfive" src="Photos/Database_7by5.jpg" alt="Database Design">
       <div class = "highlight">
           <p >With TSM we guarantee quality products and great client experiences. Contact us today to talk to our consultants about the services we can offer. </p>
@@ -138,7 +137,7 @@
   <div class="columnright" id="Sidebar">
       <div>
         <div class="box-wrap">
-          <a href= "services.htm"><h2 id="navheader">Services</h2></a>
+          <a href= "Services.htm"><h2 id="navheader">Services</h2></a>
             <div class="navcontent"></div>
               <ul>
                 <li class="item"><a href="EnvAssessment.htm" >Environmental Assessments</a></li>
@@ -150,7 +149,6 @@
         </div>
       </div>
   </div>
-</div>
 
 <!-- Footer by Alison Orlandi -->
 <footer> 

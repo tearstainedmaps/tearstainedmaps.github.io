@@ -281,7 +281,7 @@ header#pastprojects-image {
 
 
 
-  /*Main Content Blocks CSS. By Alison Orlandi */
+/*Main Content Blocks CSS. By Alison Orlandi */
 .roweven, .rowodd {
 	color: #333333;
 	line-height: 1.4;
@@ -303,7 +303,7 @@ header#pastprojects-image {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-/*End of modified w3 schools CSS*/
+
 .rowodd::after, .roweven::after{
   content: "";
   clear: both;
@@ -313,19 +313,21 @@ header#pastprojects-image {
   background-color: whitesmoke;
 }
 
-/* Shadow box modified from w3 schools */
+/* Shadow box modified from w3 schools.  */
 .sevenbyfive {
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* Footer CSS modified from w3 schools */
+/* Footer CSS modified from w3 schools. */
  .logofooter{
 	width: 20%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
  }
+
+ /* End of main content blocks CSS. Coded by Alison Orlandi */
 
 /* Responsive design for main content owned by Alison Orlandi */
 @media screen and (max-width: 800px) {
@@ -469,11 +471,6 @@ img {
 .item a:visited {
   color: #cccccc
 }
-<<<<<<< HEAD
-*/
-=======
-
->>>>>>> a7ed98e9bfe19903f3c755bf432dc67ef8cd4b12
 
 
 
@@ -762,10 +759,8 @@ hr {
     width: 99%;
   }
 }
-<<<<<<< HEAD
-=======
 
-/** teampages*//
+/** teampages*/
 .column {
   float: left;
   width: 33.3%;
@@ -790,4 +785,4 @@ hr {
 
 .title {
   color: grey;
->>>>>>> a7ed98e9bfe19903f3c755bf432dc67ef8cd4b12
+}

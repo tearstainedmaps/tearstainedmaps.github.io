@@ -24,6 +24,8 @@
       
   <!-- Favicon by Roshelle -->
   <link href="Photos/TSMFavicon.png" rel="icon" type="image/png" sizes="32x32"> 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -33,7 +35,7 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.htm">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Our Team</a></li>
         <li><a href="#">Services</a></li>
@@ -42,8 +44,8 @@
         <li><a href="#">GIS and Mapping</a></li>
         <li><a href="#">Remote Sensing</a></li>
         <li><a href="#">Urban Planning</a></li>   
-        <li><a href="#">Past Projects</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="pastprojects.htm">Past Projects</a></li>
+        <li><a href="contact.htm">Contact Us</a></li>
       </ul>
     </div>
   </div>
@@ -76,7 +78,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.htm">Home <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item dropdown">
@@ -99,11 +101,11 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Past Projects</a>
+                <a class="nav-link" href="pastprojects.htm">Past Projects</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link"  href="#">Contact</a>
+                <a class="nav-link"  href="contact.htm">Contact</a>
             </li>
 
           </ul>
@@ -112,16 +114,103 @@
   </div>
 
 
-  <!-- Hero section and text for header owned by Michael Wagner, source from https://foundation.zurb.com/building-blocks/blocks/responsive-hero-section.html -->
-  <div class="hero-image">
-    <div class="hero-section-text">
-      <h1 >Contact Us</h1>
+  <!-- Contact us Page hero section and text for header by Roshelle -->
+  <div class="hero-image-contact">
+    <h1 class="contact-headertext">Contact Us</h1>
+    <div id="transparentoverlay">
+    <div id="google-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d364165.69871538156!2d-78.54120391663743!3d44.20902777062012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDIwJzI3LjciTiA3OMKwNDQnMjkuMyJX!5e0!3m2!1sen!2sca!4v1575427763451!5m2!1sen!2sca" width="1600" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
   </div>
+  </div>
 
+<!-- Contact us Form by Roshelle -->
+<!-- Source: https://codepen.io/bobbykorec/pen/qOGbyr?editors=1100 -->
+  <section id="contact">
+  
+    <h4 id="section-header1">Get in touch</h4>
+    <h4 id="section-header2">Let's talk about your project!</h4>
 
+    <div class="contact-wrapper">
+      
+        <!---------------- 
+  
+        CONTACT PAGE LEFT 
+      
+        -----------------> 
+      
+      <form class="form-horizontal" role="form" method="post" action="contact.php">
+         
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="">
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="">
+          </div>
+        </div>
+  
+        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
+        
+        <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+          <div class="button">
+            <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+          </div>
+        
+        </button>
+        
+      </form>
+      
+        <!---------------- 
+  
+        CONTACT PAGE RIGHT 
+      
+        -----------------> 
+      
+        <div class="direct-contact-container">
+  
+          <ul class="contact-list">
+            <li class="list-item"><span class="contact-text place"><a href ="https://goo.gl/maps/wqbBiTgK15vWbsgj6"><i class="fa fa-map-marker fa-lg"></i>&nbsp; Lindsay | ON</span></li></a>
+            
+            <li class="list-item"><span class="contact-text phone"><a href="tel:(705) 749 5530" title="Give us a call">&#x260E;   (705) 749-5530</a></span></li>
+            
+            <li class="list-item"><span class="contact-text gmail"><a href="mailto:enquiries@tearstainedmaps.ca" title="Send us an email">&#x2709;  enquiries@tearstainedmaps.ca</a></span></li>
+            
+          </ul>
+  
+          <hr class="contact-hr">
+
+          <ul class="social-media-list">
+            <li><a href="https://www.facebook.com/flemingcollege/" target="_blank" class="contact-icon">
+              <i class="fa fa-facebook fa-xs" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://twitter.com/FlemingCollege" target="_blank" class="contact-icon">
+              <i class="fa fa-twitter fa-xs" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/flemingcollege/?hl=en" target="_blank" class="contact-icon">
+              <i class="fa fa-instagram fa-xs" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com/user/FlemingCollege" target="_blank" class="contact-icon">
+              <i class="fa fa-youtube fa-xs" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+
+          <hr class="contact-hr">
+  
+          <div class="copyright">&copy; ALL RIGHTS RESERVED</div>
+  
+        </div>
+      
+    </div>
+    
+  </section>  
+    
 
 
   
+
 </body>
 </html>

@@ -508,6 +508,7 @@ img {
   max-width: 400px;
   font-family: 'Lato';
   font-weight: 400;
+  padding-top:20px;
 }
 
 .form-control, textarea {

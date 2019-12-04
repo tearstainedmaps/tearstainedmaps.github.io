@@ -249,6 +249,7 @@ div#pastprojects-image {
 #google-map iframe {
   width: 100%;
   opacity: 0.55;
+  border: 0px;
 }
 
 

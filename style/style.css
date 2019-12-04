@@ -182,11 +182,14 @@ ul {
   background-size: cover;
   position: relative;
 }
+header#index-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/City.jpg"); /* Background image retrieved from Pawel Nolbert on Unsplash */
+}
 header#values-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/helena-lopes-PGnqT0rXWLs-unsplash.png"); /*Photo by Helena Lopes on Unsplash */
 }
-header#index-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/City.jpg"); /* Background image retrieved from Pawel Nolbert on Unsplash */
+header#teampage-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
 }
 
 .hero-section-text {
@@ -439,9 +442,7 @@ img {
 .item a:visited {
   color: #cccccc
 }
-<<<<<<< HEAD
-=======
-*/
+
 
 
 
@@ -722,4 +723,3 @@ hr {
     width: 99%;
   }
 }
->>>>>>> bf7f6ed0dab91f799fe66093212c88dfd327e43f

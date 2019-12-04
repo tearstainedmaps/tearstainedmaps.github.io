@@ -204,13 +204,8 @@ div#teampage-image {
 div#services-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/earthfromspace.jpg"); /*Photo from Google Maps */
 }
-<<<<<<< HEAD
 div#pastprojects-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/alvaro-reyes-qWwpHwip31M-unsplash.jpg"); /*Photo by Alvaro Reyes on Unsplash */
-=======
-header#pastprojects-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
->>>>>>> 70b7adc554d9aa56520eb88580f9c218333bbf44
 }
 .hero-section-text {
   text-align: center;

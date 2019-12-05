@@ -349,12 +349,8 @@ footer p, footer h3{
   text-align: center;
 }
 
-<<<<<<< HEAD
 /*************** PAST PROJECTS PAGE ************/
 /* Project Grid CSS Owned by Mike Rose */
-=======
-/* Project Grid CSS Owned by Mike Rose*/
->>>>>>> 0e14a6fc40562c1953b33154ca2f637e6d83b12a
 #pinBoot {
   margin-top: 30px;
   position: relative;
@@ -386,18 +382,10 @@ img {
   max-width: 100%;
   height: auto;
 }
-<<<<<<< HEAD
-
 /*************** SERVICES PAGE ************/
-=======
+
 /* End of Project Grid CSS*/
 
-
-
-
-
-
->>>>>>> 0e14a6fc40562c1953b33154ca2f637e6d83b12a
 /* CSS for Service Pages, By Alison Orlandi. Modified from: LGL.com */
 #Sidebar {
   width: 33.333333%;

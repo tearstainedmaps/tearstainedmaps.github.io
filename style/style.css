@@ -70,7 +70,7 @@ p {
 }
 
 
-/************ MOBILE NAV BAR *************>
+/************ MOBILE NAV BAR *************/
 /* Mobile Nav CSS From W3Schools Owned by Michael Rose  */
 .overlay {
   height: 0%;
@@ -226,9 +226,8 @@ div#pastprojects-image {
   font-size:60px;
 }
 
-
-
-/** Google map hero image for contact page: https://www.ostraining.com/blog/coding/responsive-google-maps/ by Roshelle **/
+/** Google map hero image for contact page by Roshelle **/
+/** Help from https://www.ostraining.com/blog/coding/responsive-google-maps/ **/
 .hero-image-contact{
   overflow:hidden;
   padding-bottom:600px;
@@ -236,7 +235,6 @@ div#pastprojects-image {
   height:0;
   width: 100vw;
 }
-
 
 #google-map {
   left: 0;
@@ -252,7 +250,6 @@ div#pastprojects-image {
   border: 0px;
 }
 
-
 #transparentoverlay {
   width  : 100%;
   height : 600px;
@@ -262,7 +259,6 @@ div#pastprojects-image {
     rgba(0,0,0,1))
   ;
 }
-
 
 .contact-headertext {
   text-align: center;
@@ -274,10 +270,10 @@ div#pastprojects-image {
   z-index: 1000;
 
 }
-/** End of Contact us hero image by Roshelle **/
+/** End of contact us hero image by Roshelle **/
 
-
-/*Main Content Blocks CSS. By Alison Orlandi */
+/************* MAIN CONTENT ********************/
+/** Main Content Blocks CSS. By Alison Orlandi **/
 .roweven, .rowodd {
 	color: #333333;
 	line-height: 1.4;
@@ -345,16 +341,15 @@ div#pastprojects-image {
     width: 100% !important;
     padding: 5%;
   }
-  
-
 }
 /* End of Main Content Blocks CSS*/
 
-/** FOOTER **/
+/*************** FOOTER *****************/
 footer p, footer h3{
   text-align: center;
 }
 
+/*************** PAST PROJECTS PAGE ************/
 /* Project Grid CSS */
 #pinBoot {
   margin-top: 30px;
@@ -388,12 +383,7 @@ img {
   height: auto;
 }
 
-
-
-
-
-
-
+/*************** SERVICES PAGE ************/
 /* CSS for Service Pages, By Alison Orlandi. Modified from: LGL.com */
 #Sidebar {
   width: 33.333333%;
@@ -442,8 +432,6 @@ img {
 
 }
 
-
-
 /*Services NavBar link CSS. By Alison Orlandi, modified from: https://www.w3schools.com/css/css_link.asp*/
 .item a:link {
   color: white; 
@@ -458,11 +446,9 @@ img {
   color: #cccccc
 }
 
-
-
-
+/*************** CONTACT PAGE ************/
 /** Start of Contact Us CSS by Roshelle **/
-/** Largely inspired by https://codepen.io/bobbykorec/pen/qOGbyr?editors=1100 **/
+/** Inspired by https://codepen.io/bobbykorec/pen/qOGbyr?editors=1100 **/
 
 #contact {
   width: 100%;
@@ -500,11 +486,14 @@ img {
   background-color: #f7f7f7f5;
 }
 
-/* Begin Left Contact Page */
+/* Left side of contact form */
 .col-sm-12 {
-  padding:0;
+  padding: 0;
 }
 
+.form-group {
+  margin-bottom: 1rem;
+}
 
 .form-horizontal {
   float: left;
@@ -520,6 +509,15 @@ img {
   color: #6d6b6b;
   letter-spacing: 1px;
   font-size: 12px;
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .send-button {
@@ -549,14 +547,14 @@ img {
   transform: translate3d(0px, -29px, 0px);
 }
 
-/* Begin Right Contact Page */
+/* Right side of contact form */
 .direct-contact-container {
   max-width: 400px;
   float: right;
   margin-top: 5px;
 }
 
-/* Contact Us- Location, Phone, Email Section */
+/* Location, Phone, Email */
 .contact-hr {
   border-color: darkgray;
 }
@@ -578,15 +576,7 @@ img {
   color: #6d6b6b;
 }
 
-.place {
-  margin-left: 40px;
-}
-
-.phone {
-  margin-left: 40px;
-}
-
-.gmail {
+.place, .phone, .gmail {
   margin-left: 40px;
 }
 
@@ -601,8 +591,7 @@ img {
   text-decoration: none;
 }
 
-
-/* Contact us - Social Media Icons */
+/* Social media icons */
 .social-media-list {
   position: relative;
   font-size: 2.3rem;
@@ -652,7 +641,7 @@ the design prevented the links from showing up/working - Rosh */
   color: #0087c9;
 }
 
-.copyright {
+.followus {
   font-size: 12px;
   color: #555;
   letter-spacing: 1px;
@@ -663,14 +652,28 @@ hr {
   border-color: rgba(255,255,255,.8); ;
 }
 
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+
 .btn-primary {
   background-color: #0087c9;
   border-color: #0087c9;
 }
 
-/* Responsive Contact us form - Begin Media Queries*/
+/* Media queries for responsive contact form */
 @media screen and (max-width: 760px) {
-    #contact {
+  #contact {
         height: 1000px;
     }
   .section-header {
@@ -733,7 +736,6 @@ hr {
     height: 55px;
     line-height: 55px;
   }
-  
 }
 
 @media screen and (max-width: 410px) {
@@ -742,7 +744,7 @@ hr {
   }
 }
 
-
+/************* TEAM PAGE ***************/
 /** Team page by Garrett Hogan */
 .column {
   float: left;

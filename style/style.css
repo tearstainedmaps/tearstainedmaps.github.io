@@ -52,7 +52,13 @@ h4 {
 
 } 
 
+h5 {
+  color: #6d6b6b;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 300;
 
+}
 
 p {
 	color: #333333;
@@ -192,20 +198,20 @@ ul {
   background-size: cover;
   position: relative;
 }
-header#index-image {
+div#index-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/City.jpg"); /* Background image retrieved from Pawel Nolbert on Unsplash */
 }
-header#values-image {
+div#values-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/helena-lopes-PGnqT0rXWLs-unsplash.png"); /*Photo by Helena Lopes on Unsplash */
 }
-header#teampage-image {
+div#teampage-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
 }
 div#services-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/earthfromspace.jpg"); /*Photo from: https://www.travelandleisure.com/trip-ideas/space-astronomy/earth-from-space */
 }
-header#pastprojects-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/you-x-ventures-Oalh2MojUuk-unsplash.jpg"); /*Photo by Helena Lopes on Unsplash */
+div#pastprojects-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Photos/alvaro-reyes-qWwpHwip31M-unsplash.jpg"); /*Photo by Alvaro Reyes on Unsplash */
 }
 .hero-section-text {
   text-align: center;
@@ -243,6 +249,7 @@ header#pastprojects-image {
 #google-map iframe {
   width: 100%;
   opacity: 0.55;
+  border: 0px;
 }
 
 
@@ -478,6 +485,12 @@ img {
   padding-bottom: 2%;
 }
 
+#section-header3 {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 0px;
+}
+
 .contact-wrapper {
   margin: 0 auto;
   padding-top: 20px;
@@ -496,6 +509,7 @@ img {
   max-width: 400px;
   font-family: 'Lato';
   font-weight: 400;
+  padding-top:20px;
 }
 
 .form-control, textarea {
@@ -526,6 +540,7 @@ img {
   font: 300 14px 'Lato', sans-serif;
   letter-spacing: 2px;
   padding-right: 15px;
+  padding-top: 5px;
 }
 
 .button:hover {

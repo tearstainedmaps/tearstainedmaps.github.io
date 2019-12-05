@@ -469,8 +469,8 @@ img {
   height: 100vh;
   background-color: white;
   overflow: hidden;
-  padding-bottom: 50px;
-  margin-bottom: 30px;
+  /* padding-bottom: 50px;
+  margin-bottom: 30px; */
 }
 
 #section-header1 {
@@ -496,6 +496,10 @@ img {
   padding-top: 20px;
   position: relative;
   max-width: 800px;
+}
+
+#contactfooter{
+  background-color: #f7f7f7f5;
 }
 
 /* Begin Left Contact Page */

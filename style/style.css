@@ -151,7 +151,7 @@ ul {
   .overlay a {font-size: 20px}
 }
 /* End of Mobile Nav CSS */
-/* Media Query to switch nav bars */
+/* Media Query to switch nav bars Owned by Mike Rose */
 
 @media only screen and (min-width: 996px){
   #mobileNav {display: none}
@@ -167,7 +167,7 @@ ul {
   #mobileNav {display: block}
   #desktopNav {display: none}
 }
-
+/* End of Media Query */
 
 /********* DESKTOP NAV BAR design by Roshelle *************/
 .bg-light{
@@ -355,7 +355,7 @@ footer p, footer h3{
   text-align: center;
 }
 
-/* Project Grid CSS */
+/* Project Grid CSS Owned by Mike Rose*/
 #pinBoot {
   margin-top: 30px;
   position: relative;
@@ -387,7 +387,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+/* End of Project Grid CSS*/
 
 
 

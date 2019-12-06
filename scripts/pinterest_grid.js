@@ -164,3 +164,4 @@ http://www.jqueryscript.net/layout/Simple-jQuery-Plugin-To-Create-Pinterest-Styl
     }
 
 })(jQuery, window, document);
+/* End of Pinterest grid script */

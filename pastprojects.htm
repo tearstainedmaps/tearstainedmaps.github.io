@@ -45,8 +45,10 @@
     </div>
   </div>
   
-  <!-- Mobile navgation bar: hamburger symbol by Michael Rose 2019-11-27 -->
+  <!-- Mobile navgation bar: hamburger symbol by Michael Rose -->
+  <!-- Added Logo for mobile nav bar by Roshelle -->
   <div id="mobileNav">
+    <a href="index.htm"><img class="logomobile" src="Photos/TSMLogo.png" alt="Logo"></a>
     <span id="hamburger" onclick="openNav()">&#9776;</span>
   </div>
 
@@ -66,7 +68,7 @@
   <!-- Desktop navigation bar owned by Garrett Hogan, from Bootstrap -->
   <div id="desktopNav">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.htm">
             <img class="logo" src="Photos/TSMLogo.png" alt="Logo">
         </a>
 
@@ -111,7 +113,7 @@
 
   <!-- Hero section and text for header owned by Michael Wagner, source from https://foundation.zurb.com/building-blocks/blocks/responsive-hero-section.html -->
   <!-- Found additional support from https://stackoverflow.com/questions/45529286/how-to-change-hero-image-based-on-html-page-->
-  <div id="pastprojects-image" class="hero-image">
+  <div id="pastprojects-image" class="hero-image" alt="close-up of hand putting a pin on a covered whiteboard">
     <header class="hero-section-text">
       <h1 >Tear Stained Maps</h1>
       <h2>Our Past Projects</h2>
@@ -127,7 +129,7 @@
       <img class="sevenbyfive" src="Photos/RemoteSensing_7by5.png" alt="Aerial False Colour Composite of Rice Lake, ON">
     </div>
     
- <!-- Layout by mike Rose, content added by Roshelle-->
+ <!-- Content added by Roshelle, source from http://geocommunity.net/projects.htm -->
     <div class="columnright">
       <h3>Past Projects</h3>
       <p>Here you can view a collection of our past projects that have been conducted by our company branch at <a href="http://geocommunity.net/projects.htm">Geocommunity.net.</a></p>
@@ -227,16 +229,17 @@
         </article>
 
       </section>
+      <!-- Call pinterest grid script. Owned by Mike Rose-->
       <script >
-       $(document).ready(function() {
-$('#pinBoot').pinterest_grid({
-no_columns: 4,
-padding_x: 10,
-padding_y: 10,
-margin_bottom: 50,
-single_column_breakpoint: 700
-});
-});
+        $(document).ready(function() {
+          $('#pinBoot').pinterest_grid({
+            no_columns: 4,
+            padding_x: 10,
+            padding_y: 10,
+            margin_bottom: 50,
+            single_column_breakpoint: 700
+          });
+        });
 
       </script>
       <!-- End Project Grid -->
